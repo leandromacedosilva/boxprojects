@@ -89,6 +89,30 @@ body {
   overflow: hidden;
 }
 
+.flip-card #front-002 {
+  background-image: url("dragonb-screen-presentation.PNG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  overflow: hidden;
+}
+
+.flip-card #front-003 {
+  background-image: url("devbg-screen-presentation.PNG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+.flip-card #front-004 {
+  background-image: url("devbb-screen-presentation.PNG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
 .flip-card .back {
   background: rgba(255, 255, 255, 0.1); /* Fond semi-transparent */
   transform: rotateY(180deg);
@@ -106,6 +130,18 @@ body {
   text-align: justify;
   font-size: 16px;
   padding: 8px;
+}
+
+i img {
+  padding: 7px 5px;
+  transition: all .8s ease;
+}
+
+i img:hover {
+  /* color: #ffffff; */
+  background: #ffffff;
+  border-radius: 6px;
+  width: 120%;
 }
 
 footer {
