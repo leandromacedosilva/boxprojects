@@ -52,7 +52,7 @@ body {
   cursor: pointer;
   margin: 10px;
 
-  transition: all .5s ease;
+  transition: all 0.5s ease;
 }
 
 .flip-card:hover {
@@ -74,7 +74,7 @@ body {
   background: rgba(255, 255, 255, 0.1); /* Fond semi-transparent */
   color: white;
 
-  transition: all .5s ease;
+  transition: all 0.5s ease;
 }
 
 .flip-card .front {
@@ -82,7 +82,7 @@ body {
 }
 
 .flip-card #front-001 {
-  background-image: url('./assets/petlife-screen-presentation.PNG');
+  background-image: url("/assets/petlife-screen-presentation.PNG");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left;
