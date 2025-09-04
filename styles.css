@@ -82,7 +82,7 @@ body {
 }
 
 .flip-card #front-001 {
-  background-image: url("/assets/petlife-screen-presentation.PNG");
+  background-image: url("petlife-screen-presentation.PNG");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left;
