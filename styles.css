@@ -81,6 +81,14 @@ body {
   background: rgba(255, 255, 255, 0.1); /* Fond semi-transparent */
 }
 
+.flip-card #front-cv {
+  background-image: url("cv-screen-presentation.PNG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  overflow: hidden;
+}
+
 .flip-card #front-001 {
   background-image: url("petlife-screen-presentation.PNG");
   background-size: cover;
